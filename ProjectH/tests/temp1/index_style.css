@@ -1,0 +1,122 @@
+body{
+    font-family: 'Dosis', sans-serif;
+position: relative;
+}
+.navbar{
+    display: -webkit-flex;
+    -webkit-align-content: center;
+    align-content: center;
+    background-color: white;
+}
+
+.logo_title{
+ font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 5rem;
+    color: white;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700);
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+.content{
+    z-index: 1;
+}
+
+.center_hero_text{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  font-size: 7vmin;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transform: translate3d(-60%, -60%, 0);
+          transform: translate3d(-50%, -50%, 0);
+    letter-spacing: 10px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.wrap {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.wrap .bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+      background: url("./images/bannes/mens_bg.jpg") no-repeat center center;
+
+  background-size: cover;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+    
+}
+.center_choose_text{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+    width: 100%;
+  color: red;
+  font-size: 5vmin;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transform: translate3d(-60%, -60%, 0);
+          transform: translate3d(-50%, -50%, 0);
+    letter-spacing: 10px;
+    font-family: 'Dosis', sans-serif;
+    
+
+}
+
+.home_choose{
+    width: 100%;
+}
+.home_choose_girl{
+    background-color: #ff6daa;
+    background: url("./images/bannes/love_da.jpg") no-repeat center center;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+
+}
+.home_choose_boy{
+    background-color: #75acff;
+    background-color: aliceblue;
+        background: url("./images/bannes/jeansmj.jpg") no-repeat center center;
+    background-size: 100%;
+    width: 100%;
+    
+    height: 100%;
+}
+
+.trends_content{
+    height: 500px;
+    width: 100%;
+}
+#top-image {
+background:url('https://d3ui957tjb5bqd.cloudfront.net/images/screenshots/products/0/8/8905/red-rocks-park-o.jpg') -25px -50px;
+position:fixed ;
+top:0;
+width:100%;
+z-index:0;
+  height:100%;
+  background-size: calc(100% + 50px);
+}

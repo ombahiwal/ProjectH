@@ -1,0 +1,263 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700);
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+.content{
+    z-index: 1;
+}
+
+.center_hero_text{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  color: white;
+  font-size: 7vmin;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transform: translate3d(-60%, -60%, 0);
+          transform: translate3d(-50%, -50%, 0);
+    letter-spacing: 10px;
+    font-family: 'Dosis', sans-serif;
+    transition: 1s;
+}
+
+
+
+.wrap {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.wrap .bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+      background: url("../images/bannes/mens_bg.jpg") no-repeat center center;
+  background-size: cover;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+    
+}
+
+.navbar{
+        background:transparent;
+        transition: 0.8s;
+    color: white;
+     align-content: center;
+    text-align: center;
+    align-self: center;
+            font-family: 'Dosis', sans-serif;
+
+}
+.navbar:hover{
+    background-color: white;
+    color: black;
+}
+.brand{
+        text-transform: capitalize;
+        letter-spacing: 10px;
+        font-size: 8vmin;  
+        font-weight: 900;
+        background-color: white;
+        border-radius: 20px;
+        color: black;
+    transition: 0.8s;
+    
+}
+
+.navbar-brand{
+        text-transform: capitalize;
+        letter-spacing: 5px;
+        font-size: 8vmin;  
+}
+
+
+.brand:hover{
+    background-color: #111111;
+    color: white;
+}
+
+.overlay {
+    height: 0%;
+    font-family: 'Dosis', sans-serif;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+                font-family: 'Dosis', sans-serif;
+
+}
+
+.overlay-content {
+    position: relative;
+                        font-family: 'Dosis', sans-serif;
+
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+.search_box {
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 1.5em;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 12px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    text-align: center;
+    border-radius: 25px;
+    width: 40%
+}
+
+.search_menu_title{
+    font-size: 2em;
+    color: white;
+}
+
+.search_submit{
+    font-size: 3rem;
+    transition: 0.8s;
+    background-color: skyblue;
+    color: white;
+    border-color: white;
+}
+
+.search_submit:hover{
+    background-color: white;
+    color: white;
+}
+.nav li{
+    margin 100px;
+}
+
+@media screen and (max-width: 600px) {
+    .search_box{
+        width:90%;
+    }
+}
+
+
+.vertical-center1 {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one 🙂       */
+  display: flex;
+  align-items:center;
+    font-family: 'Dosis', sans-serif;
+    position: absolute;
+  
+}
+
+.vertical-center-abs{
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one 🙂       */
+  display: flex;
+  align-items:center;
+     top: 50%;
+    font-family: 'Dosis', sans-serif;
+  left: 50%;    
+    
+    color: white;
+  font-size: 7vmin;
+}
+
+.list_category{
+    color: white;
+    font-size: 5vmin;
+    display: inline-block;
+}
+.list_category li{
+    margin: 1vmin;
+    
+}
+.list_category li a{
+        transition: 0.5s;
+        text-decoration: none;
+}
+.list_category li a:hover{
+    color: black;
+    background-color: white;
+    padding: 15%;
+    margin:10%;
+    z-index: 2;
+    border-radius: 20px;
+    
+}
+
+.men_select_home{
+ color: darkblue;   
+}
+.women_select_home{
+    color: palevioletred;
+}
+
+.trends_select_home{ 
+
+}
+.shop_select_home{
+    padding-right:5px;
+    padding-left:5px;
+    background-color:white;
+    color:black;
+    display:inline-block;
+    border-radius:20px;
+}
+.active_select{
+      color: black;
+    background-color: white;
+    padding: 15%;
+    margin:10%;
+    z-index: 2;
+}

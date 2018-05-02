@@ -1,0 +1,92 @@
+body, html{
+  background-color: #212121;
+  
+    color: white;
+}
+.lookbook{
+    font-size: 4rem;
+    text-align: center;
+        font-family: 'Sacramento', cursive;
+    color:wheat;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.product_img{
+    align-self: center;
+    max-height: 20rem;
+    border-radius: 10px;
+}
+.cart_item{
+            font-family: 'Dosis';
+    font-size: 1.2rem;
+    margin-bottom: 8%;
+    border: 1;
+    border:10px;
+    border-color: aqua;
+}
+.item_title a{
+    color: wheat;
+    font-size: 2rem;
+    transition: 0.5s;
+    font-family: 'Sacramento', cursive;
+}
+#q_selector{
+    font-size: 1.2rem;
+    color: white;
+    background: none;
+    border: 1;
+    border-color:white;
+    transition: 1s;
+}
+#q_selector:hover{
+    color: black;
+    background: white;
+}
+.item_title a:hover{
+    color: cornflowerblue;
+}
+.item_count{
+    size:2rem;
+    color:wheat;
+}
+.bag_btn input[type=submit]{
+    background: none;
+    border: 1;
+    border-color: white;
+    border-radius: 10px;
+    transition: 0.5s;
+    color: darkred;
+    font-size: 1rem;
+    
+}
+
+.bag_btn input[type=submit]:hover{
+    background: white;
+    color:firebrick;
+}
+#main_content{
+    align-content: center;
+}
+.empty{
+    font-family: 'Sacramento', cursive;
+    font-size: 6rem;
+    color:firebrick;
+}
+.empty a{
+    font-size: 3rem;
+    color:white;
+    transition: 0.4s;
+}
+.empty a:hover{
+    color:rosybrown;
+}
+
+.line{
+width: 8%;
+border-bottom: 2px solid wheat;
+position: absolute;
+}
+.checkout_content{
+        font-family: 'Dosis';
+        font-size: 1.2rem;
+}
